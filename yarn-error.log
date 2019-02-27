@@ -1,0 +1,40 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add typescript ts-node nodemon —-dev
+
+PATH: 
+  /Users/ArtistJD/.npm-global/bin:/Users/ArtistJD/.npm-global/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ArtistJD/.npm-global/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  11.0.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  TypeError [ERR_UNESCAPED_CHARACTERS]: https://registry.yarnpkg.com/—-dev: Request path contains unescaped characters
+      at new ClientRequest (_http_client.js:127:13)
+      at Object.request (https.js:291:10)
+      at Request.module.exports.Request.start (/usr/local/lib/node_modules/yarn/lib/cli.js:138030:32)
+      at Request.module.exports.Request.end (/usr/local/lib/node_modules/yarn/lib/cli.js:138789:10)
+      at end (/usr/local/lib/node_modules/yarn/lib/cli.js:137843:14)
+      at Immediate.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:137857:7)
+      at processImmediate (timers.js:632:19)
+
+npm manifest: 
+  {
+    "name": "graphql_test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/doohyunkim0304/graphql_tutorial.git",
+    "author": "doohyunkim0304 <ewb.doohyun@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
