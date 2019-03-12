@@ -1,6 +1,10 @@
-const resolvers = {
+const resolvers =  {
   Query: {
-    sayHello: () => "Hey hello how are ya"
+    sayHello : () => {
+      return (
+        {ok:true,error:"Hello"}
+      )
+    }
   }
 };
 
